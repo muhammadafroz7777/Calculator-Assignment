@@ -41,7 +41,7 @@
 const display = document.getElementById("display");
 
 
-function appappandTodisplay(input) {
+function appandTodisplay(input) {
   display.value += input;
 }
 
