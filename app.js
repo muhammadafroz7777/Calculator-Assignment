@@ -1,7 +1,7 @@
-var input = document.getElementById("num");
-var num1 = document.getElementById("num1");
-var num2 = document.getElementById("num2");
-var result = document.getElementById("result");
+// var input = document.getElementById("num");
+// var num1 = document.getElementById("num1");
+// var num2 = document.getElementById("num2");
+// var result = document.getElementById("result");
 //declaration
 // function isEven(num) {
 //   if (num % 2 == 0) {
@@ -22,38 +22,38 @@ var result = document.getElementById("result");
 // --------------------
 
 
-function calculate(sign = "+") {
-  var num1Val = num1.value;
-  var num2Val = num2.value;
-  if (sign == "+")
-    return (result.innerText = parseInt(num1Val) + parseInt(num2Val));
-  if (sign == "-") return (result.innerText = num1Val - num2Val);
-  if (sign == "x") return (result.innerText = num1Val * num2Val);
-  // console.log("---------------------");
+// function calculate(sign = "+") {
+//   var num1Val = num1.value;
+//   var num2Val = num2.value;
+//   if (sign == "+")
+//     return (result.innerText = parseInt(num1Val) + parseInt(num2Val));
+//   if (sign == "-") return (result.innerText = num1Val - num2Val);
+//   if (sign == "x") return (result.innerText = num1Val * num2Val);
+//   // console.log("---------------------");
 
-  if (sign == "/") return (result.innerText = num1Val / num2Val);
-  if (sign == "%") return (result.innerText = num1Val / num2Val * 100);
-}
+//   if (sign == "/") return (result.innerText = num1Val / num2Val);
+//   if (sign == "%") return (result.innerText = num1Val / num2Val * 100);
+// }
 
 // ---------------------
 
 
-// const display = document.getElementById("display");
+const display = document.getElementById("display");
 
 
-// function appandTodisplay(input) {
-//   display.value += input;
-// }
+function appandTodisplay(input) {
+  display.value += input;
+}
 
 
-// function cleardisplay(){
-//   display.value = "";
-// }
+function cleardisplay(){
+  display.value = "";
+}
 
 
-// function calculate(){
-//   display.value = eval(display.value);
-// }
+function calculate(){
+  display.value = eval(display.value);
+}
 
 
 

@@ -36,6 +36,11 @@ button{
     height: 100px;
     border-radius: 50px;
     border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .operator_btn{
